@@ -1,0 +1,42 @@
+.reversi table {
+    background: #DDDDDD;
+}
+
+.reversi td {
+    width: 40px;
+    height: 40px;
+    border: 1px dashed #EEEEEE;
+    cursor: pointer;
+}
+
+.reversi td span {
+    display: block;
+    visibility: hidden;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px; 
+    margin: 5px 0 0 5px;
+}
+
+.reversi .score-node {
+    display: inline-block;
+    width: 125px;
+    padding: 10px;
+    font-size: 30px;
+    background: #DDDDDD;
+    border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    -webkit-border-radius: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.reversi .score-black {
+    color: black;
+}
+
+.reversi .score-white {
+    color: white;
+}
